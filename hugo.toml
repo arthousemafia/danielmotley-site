@@ -1,0 +1,30 @@
+baseURL = "https://danielmotley.com/"
+languageCode = "en-us"
+title = "Daniel Motley"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "dark"
+  disableThemeToggle = true
+  disableScrollToTop = true
+
+[menu]
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 30
+
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 40

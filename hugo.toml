@@ -28,3 +28,10 @@ theme = "PaperMod"
     name = "CV"
     url = "/cv/"
     weight = 40
+    
+  [[menu.main]]
+    name = "Substack"
+    url = "https://danielmotley.substack.com"
+    weight = 50
+    params = { target = "_blank" }
+
